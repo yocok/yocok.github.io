@@ -3,11 +3,11 @@
   <title>Yocok</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://yocok.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2021-06-24T06:14:01.823Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://yocok.github.io/"/>
+  <updated>2021-06-24T16:55:22.195Z</updated>
+  <id>https://yocok.github.io/</id>
   
   <author>
     <name>Yocok</name>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>主题特殊功能</title>
+    <link href="https://yocok.github.io/2021/06/24/md/dw/"/>
+    <id>https://yocok.github.io/2021/06/24/md/dw/</id>
+    <published>2021-06-24T13:10:36.000Z</published>
+    <updated>2021-06-24T16:55:22.195Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="links-链接块"><a class="anchor" href="#links-链接块">#</a>  <code>links</code>  链接块</h1><figure class="highlight md"><figcaption data-lang="Markdown"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token code keyword">``` links ``</span>`</pre></td></tr></tbody></table></figure><p><code>以下正文</code></p><p>本功能参考 NexT，基于 Hexo Tag 功能，用来建立友链或其他网址链接功能。<br>文章中的使用格式：</p><ol><li>使用  <code>links</code>  标签块，包围  <code>yml</code>  语法书写的内容，字段包括</li></ol><table><tbody><tr><td style="text-align:left"><code>site</code></td><td style="text-align:center">站点名称</td><td style="text-align:left">必填</td></tr><tr><td style="text-align:left"><code>owner</code></td><td style="text-align:center">管理员名字</td><td style="text-align:left">可选，默认为  <code>site</code>  的值</td></tr><tr><td style="text-align:left"><code>url</code></td><td style="text-align:center">站点链接</td><td style="text-align:left">必填</td></tr><tr><td style="text-align:left"><code>desc</code></td><td style="text-align:center">站点描述</td><td style="text-align:left">可选，默认为 url 的值</td></tr><tr><td style="text-align:left"><code>image</code></td><td style="text-align:center">站点图片</td><td style="text-align:left">可选，默认为  <code>images/404.png</code></td></tr><tr><td style="text-align:left"><code>color</code></td><td style="text-align:center">方块颜色</td><td style="text-align:left">可选，默认为  <code>#666</code></td></tr></tbody></table><p>&lt;!-- :- 表示 right -: left :---: 居中 --&gt;</p><pre><code>{% links %}- site: #站点名称  owner: #管理员名字  url: #站点网址  desc: #简短描述  image: #一张图片  color: #颜色代码{% endlinks %}</code></pre><p>举个栗子：<br></p><div class="links"><div class="item" title="霜月琉璃" style="--block-color:#e9546b;"><span class="exturl image" data-url="aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=" data-background-image="https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg"></span>          <div class="info">          <span class="exturl title" data-url="aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=">優萌初華</span>          <p class="desc">琉璃的医学 &amp; 编程笔记</p>          </div></div><div class="item" title="霜月琉璃"><span class="exturl image" data-url="aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=" data-background-image="/images/avatar.jpg"></span>          <div class="info">          <span class="exturl title" data-url="aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=">優萌初華</span>          <p class="desc">https://shoka.lostyu.me</p>          </div></div><div class="item" title="優萌初華" style="--block-color:#9d5b8b;"><span class="exturl image" data-url="aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=" data-background-image="/images/404.png"></span>          <div class="info">          <span class="exturl title" data-url="aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=">優萌初華</span>          <p class="desc">琉璃的医学 &amp; 编程笔记</p>          </div></div></div><p></p><ol start="2"><li>以上标签块里的内容，还可以保存到一个  <code>yml</code>  文件中，然后使用  <code>linksfile</code>  标签。<br>其中，  <code>path</code>  位于  <code>&lt;root&gt;/source</code>  目录下。</li></ol><p><code>{% linksfile friends/_data.yml %}</code> <br> <code>friends</code>  是  <code>source</code>  文件夹下面的一级目录</p><h1 id="code-代码块"><a class="anchor" href="#code-代码块">#</a>  <code>code</code>  代码块</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;links-链接块&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#links-链接块&quot;&gt;#&lt;/a&gt;  &lt;code&gt;links&lt;/code&gt;  链接块&lt;/h1&gt;
+&lt;figure class=&quot;highlight md&quot;&gt;&lt;figcaption data-lan</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>主题需要三个文章，首页才不会出问题</title>
-    <link href="http://example.com/2021/06/24/01/"/>
-    <id>http://example.com/2021/06/24/01/</id>
+    <link href="https://yocok.github.io/2021/06/24/01/"/>
+    <id>https://yocok.github.io/2021/06/24/01/</id>
     <published>2021-06-24T06:13:13.508Z</published>
     <updated>2021-06-24T06:14:01.823Z</updated>
     
@@ -38,8 +59,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/06/24/hello-world/"/>
-    <id>http://example.com/2021/06/24/hello-world/</id>
+    <link href="https://yocok.github.io/2021/06/24/hello-world/"/>
+    <id>https://yocok.github.io/2021/06/24/hello-world/</id>
     <published>2021-06-24T05:12:22.205Z</published>
     <updated>2021-06-24T05:33:46.286Z</updated>
     
@@ -58,8 +79,8 @@
   
   <entry>
     <title>about</title>
-    <link href="http://example.com/2020/02/12/about/index/"/>
-    <id>http://example.com/2020/02/12/about/index/</id>
+    <link href="https://yocok.github.io/2020/02/12/about/index/"/>
+    <id>https://yocok.github.io/2020/02/12/about/index/</id>
     <published>2020-02-12T14:14:36.000Z</published>
     <updated>2021-06-24T06:03:02.439Z</updated>
     
